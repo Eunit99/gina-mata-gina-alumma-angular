@@ -10,6 +10,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { HomepageComponent } from 'src/pages/homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialComponent } from './social/social.component';
+import { ReachOutComponent } from './reach-out/reach-out.component';
 
 
 
@@ -17,7 +18,7 @@ import { SocialComponent } from './social/social.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     SVGServerComponent,
     NavbarComponent,
@@ -26,8 +27,9 @@ import { SocialComponent } from './social/social.component';
     PartnersComponent,
     HomepageComponent,
     FooterComponent,
-    SocialComponent
-  ],
+    SocialComponent,
+      ReachOutComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule

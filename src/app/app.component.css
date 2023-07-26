@@ -2,3 +2,32 @@
   padding-top: 3.87rem;
   padding-bottom: 3.87rem;
 }
+
+::ng-deep .title {
+  font-family: "Average Sans";
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+::ng-deep .amber-title {
+  color: var(--amber-text, #F2B848);
+}
+
+::ng-deep .blue-title {
+  color: var(--blue-text, #0F3163);
+}
+
+
+::ng-deep .subtitle {
+  font-family: "Average Sans";
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+::ng-deep .amber-subtitle {
+  color: var(--amber-text, #F2B848);
+}
