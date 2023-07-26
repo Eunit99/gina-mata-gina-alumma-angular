@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { PartnersComponent } from './partners/partners.component';
 import { HomepageComponent } from 'src/pages/homepage/homepage.component';
+import { FooterComponent } from './footer/footer.component';
+import { SocialComponent } from './social/social.component';
 
 
 
@@ -23,6 +25,8 @@ import { HomepageComponent } from 'src/pages/homepage/homepage.component';
     HeroComponent,
     PartnersComponent,
     HomepageComponent,
+    FooterComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
