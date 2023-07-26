@@ -1,0 +1,134 @@
+/* You can add global styles to this file, and also import other style files */
+@import"https://fonts.googleapis.com/css2?family=Inter&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Average+Sans&display=swap";
+
+html,
+body {
+  height: 100%;
+  font-size: 21px
+}
+
+body {
+  margin: 0;
+  font-family: Average Sans, sans-serif;
+  font-weight: 400;
+  color: #768497;
+  --blue-text: #0F3163;
+  --line-color: #DCE0E5;
+  --amber-text: #F2B848;
+  --green-text: #52B848;
+  --dark-green-text: #026735
+}
+
+@media screen and (max-width: 654px) {
+
+  html,
+  body {
+    font-size: 16px !important
+  }
+}
+
+.title {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700
+}
+
+.blue-text {
+  color: var(--blue-text)
+}
+
+.amber-text {
+  color: var(--amber-text)
+}
+
+.green-text {
+  color: var(--green-text)
+}
+
+small {
+  font-size: .7619047619rem
+}
+
+.smaller {
+  font-size: .5238095238rem
+}
+
+.green-btn {
+  background: var(--green-text);
+  padding: .380952381rem 1.9523809524rem;
+  color: #fafafa
+}
+
+.btn-padding {
+  padding: .380952381rem 2.6666666667rem
+}
+
+.green-btn:hover {
+  background: var(--dark-green-text);
+  color: #fff
+}
+
+.btn-outline-success {
+  border-color: #52b848;
+  color: #52b848
+}
+
+.btn-outline-success:hover {
+  background-color: #52b848;
+  border: none
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: .8571428571rem
+}
+
+.top-border-line {
+  border-top: var(--line-color) solid .5px
+}
+
+.bottom-border-line {
+  border-bottom: var(--line-color) solid .5px
+}
+
+.container-padding {
+  padding-top: 6.1904761905rem;
+  padding-bottom: 6.1904761905rem
+}
+
+.cursor {
+  cursor: pointer
+}
+
+@media screen and (min-width: 992px) {
+  .section-padding {
+    padding-left: 1.9047619048rem;
+    padding-right: 1.9047619048rem
+  }
+
+  .right-border-line {
+    border-right: var(--line-color) solid .5px
+  }
+
+  .left-border-line {
+    border-left: var(--line-color) solid .5px
+  }
+}
+
+.radius {
+  border-radius: 4px
+}
+
+.wysiwyg-content {
+  font-size: .7619047619rem;
+  color: #768497 !important
+}
+
+.wysiwyg-content img {
+  max-width: 100% !important
+}
+
+.wysiwyg-content .accordion-button {
+  color: #768497 !important
+}

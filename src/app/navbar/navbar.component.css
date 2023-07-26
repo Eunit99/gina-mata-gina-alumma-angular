@@ -1,0 +1,35 @@
+.bottom-border-line {
+  border-bottom: var(--line-color) solid 0.5px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+  background-color: var(--green-text);
+  color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+
+  .navbar .dropdown-menu .dropdown-item {
+    border-bottom: 1px solid #8B97A7;
+    color: #8b97a7;
+  }
+
+  .nav-link {
+    padding-right: 1.333333rem !important;
+    padding-left: 1.333333rem !important;
+  }
+
+  .navbar {
+    padding-top: 1.8095238095rem;
+    padding-bottom: 1.8095238095rem;
+  }
+}

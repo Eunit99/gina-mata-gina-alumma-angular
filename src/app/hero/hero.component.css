@@ -1,0 +1,23 @@
+.hero .hero-text {
+  font-size: 2.8095238095rem;
+  color: var(--blue-text);
+  margin-bottom: 1.1428571429rem;
+}
+
+.title {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+}
+
+.hero .hero-content {
+  margin-bottom: 2.2857142857rem;
+}
+
+@media screen and (min-width: 992px) {
+  .hero .hero-line {
+    background: url(/assets/images/illustrations/hero_line.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+  }
+}

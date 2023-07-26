@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-sm bottom-border-line">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <app-svgserver
+        class="d-inline"
+        [id]="'main-logo'"
+        [color]="''"
+        [width]="'103px'"
+        [height]="'52px'"
+      ></app-svgserver>
+    </a>
+    <button
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler d-lg-none"
+    >
+      <app-svgserver
+        class=""
+        [id]="'menu-icon'"
+        [color]="''"
+        [width]="'25px'"
+        [height]="'25px'"
+      ></app-svgserver>
+    </button>
+    <div id="collapsibleNavId" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-lg-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a fragment="home" class="nav-link active" href="/#home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            href="#"
+            id="dropdownId"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            class="nav-link dropdown-toggle"
+          >
+            Program Components
+          </a>
+          <div aria-labelledby="dropdownId" class="dropdown-menu">
+            <a
+              fragment="makoryar"
+              class="dropdown-item"
+              href="/programs#makoryar"
+              >Makoryar Fasaha</a
+            ><a
+              fragment="dalibar"
+              class="dropdown-item"
+              href="/programs#dalibar"
+              >Dalibar Fasaha</a
+            ><a fragment="matan" class="dropdown-item" href="/programs#matan"
+              >Matan Fasaha</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a fragment="faq" class="nav-link" href="/#faq">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <button role="button" type="button" class="btn green-btn btn-padding m-lg-4 mt-lg-0 mb-lg-0" tabindex="0">
+            Apply now
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
