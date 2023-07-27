@@ -32,6 +32,10 @@
   color: var(--amber-text, #F2B848);
 }
 
+::ng-deep .blue-subtitle {
+  color: var(--blue-text, #0F3163);
+}
+
 ::ng-deep .panel-heading {
   color: #768497 !important;
   font-family: "Average Sans" !important;
@@ -60,5 +64,10 @@
   border: none;
   border: 0;
   outline: 0;
+}
 
+::ng-deep .b,
+::ng-deep b,
+::ng-deep .bold {
+  font-weight: 700;
 }

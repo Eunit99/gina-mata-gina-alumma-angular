@@ -59,3 +59,37 @@
   background-color: rgba(43, 68, 255, 0.25);
   ;
 }
+
+.image-gallery {
+  height: 40.9375rem;
+}
+
+.image-gallery .image {
+  background-color: var(--line-color);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 8px;
+  width: 100%;
+  height: 100%;
+  -o-border-radius: 0.445;
+  -webkit-border-radius: 0.445;
+  -moz-border-radius: 0.445;
+  -ms-border-radius: 0.445;
+  border-radius: 0.445;
+}
+
+.image-gallery .image.one {
+  background-image: url("/assets/images/bg/one.png");
+  height: 38rem;
+}
+
+.image-gallery .image.two {
+  background-image: url("/assets/images/bg/two.png");
+  height: 17.553rem;
+}
+
+.image-gallery .image.three {
+  background-image: url("/assets/images/bg/three.png");
+  height: 19.70819rem;
+}
