@@ -15,3 +15,47 @@
   font-weight: 400;
   line-height: 1.65525rem;
 }
+
+.location-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.125rem;
+  border: 0.5px solid #8B97A7;
+  box-shadow: 0px 1px 3px 1px rgba(243, 248, 245, 0.05), 0px 1px 2px 0px rgba(243, 248, 245, 0.30);
+  padding: 1rem;
+  margin: 12px;
+  max-width: 200px;
+}
+
+.location-icon-wrapper {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.location-icon-wrapper--kano {
+  background-color: rgba(242, 184, 72, 0.25);
+}
+
+.location-icon-wrapper--zamfara {
+  background-color: rgba(82, 184, 72, 0.25);
+}
+
+.location-icon-wrapper--gombe {
+  background-color: rgba(255, 184, 184, 0.25);
+}
+
+.location-icon-wrapper--borno {
+  background-color: rgba(43, 68, 255, 0.25);
+  ;
+}
