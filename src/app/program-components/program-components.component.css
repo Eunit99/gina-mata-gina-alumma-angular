@@ -16,7 +16,9 @@
   line-height: 1.65525rem;
 }
 
-.program-wrapper {}
+.program-wrapper {
+  margin: 12px;
+}
 
 .program-icon-wrapper {
   width: 2.5rem;
