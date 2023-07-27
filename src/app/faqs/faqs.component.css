@@ -1,38 +1,34 @@
-::ng-deep .section-padding {
-  padding-top: 3.87rem;
-  padding-bottom: 3.87rem;
-}
-
-::ng-deep .title {
+.faqs-text--primary {
+  color: #768497;
   font-family: "Average Sans";
-  font-size: 2.625rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 3rem;
-}
-
-::ng-deep .amber-title {
-  color: var(--amber-text, #F2B848);
-}
-
-::ng-deep .blue-title {
-  color: var(--blue-text, #0F3163);
-}
-
-
-::ng-deep .subtitle {
-  font-family: "Average Sans";
-  font-size: 1.3125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.875rem;
 }
 
-::ng-deep .amber-subtitle {
-  color: var(--amber-text, #F2B848);
+.faqs-text--secondary {
+  color: #768497;
+  font-family: "Average Sans";
+  text-align: center;
+  font-size: 0.85869rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65525rem;
 }
 
-::ng-deep .panel-heading {
+.accordion-header-wrapper {
+  text-decoration: none;
+  display: flex;
+  padding: 1.32419rem 0.88281rem;
+  align-items: center;
+  gap: 2.207rem;
+  border-radius: 0.11038rem;
+  background: #FFF;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.05), 0px 6px 10px 4px rgba(243, 248, 245, 0.15);
+}
+
+.panel-heading,
+.accordion-toggle {
   color: #768497 !important;
   font-family: "Average Sans" !important;
   text-align: center !important;
@@ -41,24 +37,17 @@
   font-weight: 400 !important;
   line-height: 1.65525rem !important;
   display: flex !important;
+  padding: 1.32419rem 0.88281rem !important;
   align-items: center !important;
   gap: 2.207rem !important;
   border-radius: 0.11038rem !important;
   background: #FFF !important;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.05), 0px 6px 10px 4px rgba(243, 248, 245, 0.15) !important;
   text-decoration: none;
-  margin: 12px;
 }
 
 
-::ng-deep .panel-title .btn.btn-link {
+.btn.btn-link {
   text-decoration: none;
-  color: #768497 !important;
-}
-
-::ng-deep .panel.card.panel-default {
-  border: none;
-  border: 0;
-  outline: 0;
 
 }

@@ -11,14 +11,20 @@ import { HomepageComponent } from 'src/pages/homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialComponent } from './social/social.component';
 import { ReachOutComponent } from './reach-out/reach-out.component';
-
+import { FaqsComponent } from './faqs/faqs.component';
+import { FormsModule, ReactiveFormsModule }
+  from '@angular/forms';
+import { BrowserAnimationsModule }
+  from '@angular/platform-browser/animations';
+import { AccordionModule }
+  from 'ngx-bootstrap/accordion';
 
 
 
 
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     SVGServerComponent,
     NavbarComponent,
@@ -28,11 +34,17 @@ import { ReachOutComponent } from './reach-out/reach-out.component';
     HomepageComponent,
     FooterComponent,
     SocialComponent,
-      ReachOutComponent
-   ],
+    ReachOutComponent,
+    FaqsComponent
+  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    AccordionModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
