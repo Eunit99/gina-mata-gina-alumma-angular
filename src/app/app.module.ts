@@ -18,13 +18,15 @@ import { BrowserAnimationsModule }
   from '@angular/platform-browser/animations';
 import { AccordionModule }
   from 'ngx-bootstrap/accordion';
+import { ProgramComponentsComponent } from './program-components/program-components.component';
+import { LocationComponent } from './location/location.component';
 
 
 
 
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
     SVGServerComponent,
     NavbarComponent,
@@ -35,8 +37,10 @@ import { AccordionModule }
     FooterComponent,
     SocialComponent,
     ReachOutComponent,
-    FaqsComponent
-  ],
+    FaqsComponent,
+      ProgramComponentsComponent,
+      LocationComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

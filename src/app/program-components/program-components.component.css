@@ -1,0 +1,17 @@
+.program-components-text--primary {
+  color: #768497;
+  font-family: "Average Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+.program-components-text--secondary {
+  color: #768497;
+  font-family: "Average Sans";
+  text-align: center;
+  font-size: 0.85869rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65525rem;
+}
